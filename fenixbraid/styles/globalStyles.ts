@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-export default createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
@@ -8,7 +8,7 @@ export default createGlobalStyle`
     }
     body {
         font: 400 16px 'Ubuntu', sans-serif;
-        background: ${props => props.theme.colors.background}
+        background: ${(props) => props.theme.colors.background}
     }
     a {
         color: inherit;
