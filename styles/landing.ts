@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import fundo from '../../public/images/fundo.png'
 
 export const Landing = styled.section`
-    // background: red;
-    background-image: url('../../public/images/fundo.png')
+    background: red;
+    // background-image: url('../../public/images/fundo.png')
     width: 100vw;
     height: 100vh;
 
