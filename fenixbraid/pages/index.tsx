@@ -1,32 +1,21 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styled from 'styled-components'
+import Link from 'next/link'
 import { Layout } from '../src/components/layout'
+import {Landing} from '../styles/landing'
 
 const Home: NextPage = () => {
   return <Layout main = {
     <div>
-      <p>
-        dia com horários disponíveis essa semana
-      </p>
-      <div>
-        <div>
-          <img src="#" alt="imagem de fundo 1" />
-          <p>terça</p>
-        </div>
-        <div>
-          <img src="#" alt="imagem de fundo 2" />
-          <p>quarta</p>
-        </div>
-        <div>
-          <img src="#" alt="imagem de fundo 3" />
-          <p>quinta</p>
-        </div>
-      </div>
-    <button>
-      veja
-    </button>
+      <Landing>
+        <article className='invite'>
+          <p>Bem vindo ao seu canto de beleza preferêncial, onde podes se expressar e ser feliz </p>
+
+        <button className='btnInfo'>
+          info
+        </button>
+  
+        </article>
+      </Landing>
     </div>
     }
   />

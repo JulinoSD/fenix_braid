@@ -1,16 +1,17 @@
 export const theme = {
     colors: {
-        background: '#00e',
+        background: 'red',
         text: '#fff',
-        primary: 'rgba(255, 0, 0, 0.5)',
+        primary: '#f0055',
         secondary: '#f52a10',
         buttonOn: 'gren',
         buttonOf: 'red',
     },
     dimension: {
-        button: {
-            width: '150px',
-            height: '50px'
+        ButtonLanding: {
+            width: '200px',
+            height: '40px',
+            background: 'pink'
         },
         screen: {
             width: '100vw',
