@@ -5,5 +5,8 @@ module.exports = withImages({
     esModule: true,
     reactStrictMode: true,
 })
-// module.exports = {
-// }
+/* module.exports = {
+  images: {
+    domains: [i.imgur.com]
+  }
+}*/
