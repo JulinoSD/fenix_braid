@@ -1,6 +1,4 @@
 import type { NextPage } from 'next'
-import Fundo from '../public/images/fundo.png'
-import Image from 'next/image'
 import { Layout } from '../components/layout'
 import {Landing} from '../../styles/landing'
 
