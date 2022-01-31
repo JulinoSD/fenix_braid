@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-// import Fundo from '/images/fundo.png'
+import Fundo from '../public/images/fundo.png'
 
-export const Landing = styled.section`
+export const Landing = styled.div`
     background: red;
-    // background-image: ${Fundo}
+    background-image: url(${Fundo})
     width: 100vw;
     height: 100vh;
 
@@ -36,3 +36,4 @@ export const Landing = styled.section`
         background: #00ffdf55;
     }
 `;
+// export default Landing

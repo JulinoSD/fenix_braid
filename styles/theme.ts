@@ -26,6 +26,14 @@ export const theme = {
             }
         }
     },
+    button: {
+      borderRadius: '5px',
+      height: '12px',
+      padding:'8px',
+      btnNormal: {
+        background: '#fff'
+      }
+    },
     price: {
         titlePrice: {
             textTransform: 'uppercase',
