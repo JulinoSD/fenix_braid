@@ -1,28 +1,21 @@
 import styled from 'styled-components'
-import Fundo from '../public/images/fundo.png'
 
 export const Landing = styled.div`
-    background: red;
-    background-image: url(${Fundo})
     width: 100vw;
     height: 100vh;
 
     .invite {
         position: absolute;
         bottom: 0;
-        left: 2.5%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid gray;
-        border-radius: 15px;
-        width: 95%;
-        height: 35%;
-        // background: linear-gradient(#00ff3315, #00ff3320, #00ff3355);
-        background: #00000090;
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
+        border-radius: 15px 15px 0 0;
+        width: 100%;
+        height: 10%;
+        background: #fff;
+        color: #000;
         z-index: 100;
     }
     .btnInfo {
