@@ -3,6 +3,7 @@ import { Layout } from '../components/layout'
 import {Landing} from '../../styles/landing'
 import Head from 'next/head'
 import {FiHome} from 'react-icons/fi'
+import {FaCalendar, FaImages} from 'react-icons/fa'
 
 const Home: NextPage = () => {
   return <Layout main = {
@@ -12,8 +13,11 @@ const Home: NextPage = () => {
       </Head>
       <Landing>
         <article className='invite'>
-          <FiHome size={25}/>
-
+          <ul>
+            <li><FaImages/></li>
+            <li><FiHome/></li>
+            <li><FaCalendar/></li>
+          </ul>
         </article>
       </Landing>
     </div>

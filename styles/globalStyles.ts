@@ -11,6 +11,9 @@ export const GlobalStyle = createGlobalStyle`
         background: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.text};
     }
+    li {
+      list-style: none;
+    }
     a {
         color: ${props => props.theme.colors.text};
         text-decoration: none;

@@ -8,7 +8,7 @@ export const Landing = styled.div`
         position: absolute;
         bottom: 0;
         display: flex;
-        align-items: center;
+        // align-items: center;
         justify-content: center;
         flex-direction: column;
         border-radius: 15px 15px 0 0;
@@ -27,6 +27,11 @@ export const Landing = styled.div`
     }
     .btnInfo:hover {
         background: #00ffdf55;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
     }
 `;
 // export default Landing
