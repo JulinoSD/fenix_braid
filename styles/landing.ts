@@ -8,7 +8,6 @@ export const Landing = styled.div`
         position: absolute;
         bottom: 0;
         display: flex;
-        // align-items: center;
         justify-content: center;
         flex-direction: column;
         border-radius: 15px 15px 0 0;
@@ -20,7 +19,6 @@ export const Landing = styled.div`
     }
     .btnInfo {
         color: #0a3fdf;
-        // background: #00ffdf;
         background: none;
         outline: 2px solid #0a3fdf;
         transition: 2s;

@@ -16,6 +16,13 @@
     "incremental": true,
     "baseUrl": "."
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/_document.tsx","imageImport.d.ts", "styles/landing.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/_document.tsx",
+    "imageImport.d.ts",
+    "**/*.png"
+  ],
   "exclude": ["node_modules"]
 }
