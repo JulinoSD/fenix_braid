@@ -12,6 +12,7 @@ const Home: NextPage = () => {
         <title>Braid</title>
       </Head>
       <Landing>
+      {/* <img src={fundo} alt="" /> */}
         <article className='invite'>
           <ul>
             <li><FaImages size={20}/></li>
