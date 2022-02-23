@@ -19,10 +19,25 @@ export const Images = styled.div`
     color: #000;
   }
   .preferences {
-    width: 70%;
+    // width: 70%;
+    height:100%;
+    display: grid;
+    // background: #cecece;
+    place-content: center;
+  }
+  .references {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+  .number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail {
+    margin-top: 5px;
+    height: 25px;
   }
 }
 .principal {
@@ -36,6 +51,11 @@ export const Images = styled.div`
     height: 420px;
     background: #fff;
     color: #000;
+    .reaction {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
   }
   .photo{
     width: 450px;
