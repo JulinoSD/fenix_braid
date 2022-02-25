@@ -11,6 +11,7 @@ export const Images = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 80px;
   .foto p{
     background-color: #000;
     width: 75px;
@@ -45,22 +46,36 @@ export const Images = styled.div`
   height: 100vh;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  background: #fff;
   .card {
-    margin-top: 80px;
-    width: 450px;
-    height: 420px;
+    display: grid;
+    width: 435px;
+    height: 410px;
     background: #fff;
     color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 1em black;
     .reaction {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
     }
   }
+  .card:first-child {
+    margin-top:87px;
+  }
+  .card:not(:first-child) {
+    margin-top:8px;
+  }
   .photo{
-    width: 450px;
+    display: grid;
+    width: 435px;
     height: 380px;
     background: black;
+    border-radius: 10px;
+    place-content: center;
+    color: #fff;
   }
   img {
     width: 100%;

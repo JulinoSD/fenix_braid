@@ -39,6 +39,16 @@ export const Galery =() => {
               <FiHeart size={20}/>
             </article>
           </section>
+          <section className="card">
+            <article className="photo">
+            <img src="#" alt="imagem"/>
+            </article>
+            <article className="reaction">
+              <p>Nome:</p>
+              <p>Tipo:</p>
+              <FiHeart size={20}/>
+            </article>
+          </section>
         </main>
     </Images>
   )
