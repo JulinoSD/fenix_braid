@@ -12,6 +12,7 @@ export const Images = styled.div`
   justify-content: space-around;
   align-items: center;
   margin-bottom: 80px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
   .foto p{
     background-color: #000;
     width: 75px;
@@ -30,11 +31,19 @@ export const Images = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }
-  .number {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .title {
+        font: 300 12px 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+      }
+      .name {
+        font: 600 12px 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+      }
+    }
   }
   .detail {
     margin-top: 5px;
@@ -45,7 +54,8 @@ export const Images = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   background: #fff;
   .card {
@@ -55,7 +65,7 @@ export const Images = styled.div`
     background: #fff;
     color: #000;
     border-radius: 10px;
-    box-shadow: 0 0 1em black;
+    box-shadow: 0 0.125rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 1.25rem 0 rgba(0, 0, 0, 0.19);
     .reaction {
       display: flex;
       flex-direction: row;
@@ -69,6 +79,7 @@ export const Images = styled.div`
     margin-top:8px;
   }
   .photo{
+    position: relative;
     display: grid;
     width: 435px;
     height: 380px;
@@ -76,6 +87,11 @@ export const Images = styled.div`
     border-radius: 10px;
     place-content: center;
     color: #fff;
+    Image {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
   }
   img {
     width: 100%;

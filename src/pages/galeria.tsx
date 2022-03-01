@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { FiHeart } from "react-icons/fi"
 import { Images } from "styles/images"
 
@@ -10,18 +11,18 @@ export const Galery =() => {
           </span>
           <section className="preferences">
             <article className="references">
-            <section className="number">
-              <p>Jumbo</p>
-              <p>Tipo</p>
-            </section>
-            <section className="number">
-              <p>001</p>
-              <p>Gostaram</p>
-            </section>
-            <section className="number">
-              <p>001</p>
-              <p>Fizeram</p>
-            </section>
+              <section className="number">
+                <p className="name">Jumbo</p>
+                <p className="title">Tipo</p>
+              </section>
+              <section className="number">
+                <p className="name">001</p>
+                <p className="title">Gostaram</p>
+              </section>
+              <section className="number">
+                <p className="name">001</p>
+                <p className="title">Fizeram</p>
+              </section>
             </article>
             <button className="detail">
               detalhes
@@ -31,7 +32,8 @@ export const Galery =() => {
         <main className="principal">
           <section className="card">
             <article className="photo">
-            <img src="#" alt="imagem"/>
+              <Image src='/../public/fundo.png' alt="imagem" width={430} height={420}
+              />
             </article>
             <article className="reaction">
               <p>Nome:</p>

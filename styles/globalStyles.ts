@@ -24,17 +24,16 @@ export const GlobalStyle = createGlobalStyle`
         border: none;
     }
     button {
-        width: ${props => props.theme.dimension.ButtonLanding.width};
-        height: ${props => props.theme.dimension.ButtonLanding.height};
-        text-transform: uppercase;
-        border-radius: 10px;
-        border: none;
-        //background: ${props => props.theme.dimension.ButtonLanding};
-        background: #009fff;
-        color: white;
-        font-weight: bold;
-        outline: 1px solid #a300ff;
-        // border: 1px solid gray;
+      width: ${props => props.theme.dimension.ButtonLanding.width};
+      height: ${props => props.theme.dimension.ButtonLanding.height};
+      text-transform: uppercase;
+      border-radius: 10px;
+      border: none;
+      //background: ${props => props.theme.dimension.ButtonLanding};
+      background: #009fff;
+      color: white;
+      font-weight: bold;
+
     }
     LandingPage {
         background: red;
