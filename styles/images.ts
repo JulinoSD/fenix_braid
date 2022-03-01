@@ -13,6 +13,7 @@ export const Images = styled.div`
   align-items: center;
   margin-bottom: 80px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 100;
   .foto p{
     background-color: #000;
     width: 75px;
@@ -87,6 +88,7 @@ export const Images = styled.div`
     border-radius: 10px;
     place-content: center;
     color: #fff;
+    // z-index: -1;
     Image {
       width: 100%;
       height: 100%;
