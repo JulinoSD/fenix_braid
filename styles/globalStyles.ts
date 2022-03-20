@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import Fundo from '../public/fundo.png'
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -8,7 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
         font: 400 16px 'Ubuntu', sans-serif;
-        background: ${props => props.theme.colors.background};
+        background: url(fundo.png) no-repeat;
+        background-size: cover;
         color: ${props => props.theme.colors.text};
     }
     li {

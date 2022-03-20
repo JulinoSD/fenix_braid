@@ -2,8 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import {FaCalendar, FaImages} from 'react-icons/fa'
 import {FiHome} from 'react-icons/fi'
-import { Layout } from '../components/layout'
-import {Landing} from '../../styles/landing'
+import { Layout } from '../src/components/layout'
+import {Landing} from '../styles/landing'
 
 const Home: NextPage = () => {
   return <Layout main = {
