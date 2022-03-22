@@ -1,9 +1,14 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import {FaCalendar, FaImages} from 'react-icons/fa'
-import {FiHome} from 'react-icons/fi'
-import { Layout } from '../src/components/layout'
-import {Landing} from '../styles/landing'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Link from 'next/link';
+import {
+  FaCalendar,
+  FaImages,
+  FaRegCompass
+} from 'react-icons/fa';
+import {AiOutlineHome} from 'react-icons/ai';
+import { Layout } from '../src/components/layout';
+import {Landing} from '../styles/landing';
 
 const Home: NextPage = () => {
   return <Layout main = {
@@ -14,10 +19,29 @@ const Home: NextPage = () => {
       <Landing>
       {/* <img src={fundo} alt="" /> */}
         <article className='invite'>
-          <ul>
-            <li><FaImages size={20}/></li>
-            <li><FiHome size={20}/></li>
-            <li><FaCalendar size={20}/></li>
+          <ul className='navigation'>
+            <li className='navigationLink'>
+              <FaImages size={20}/>
+              <Link href='/galeria'>
+              <a>galeria</a>
+              </Link>
+            </li>
+            {/* <li><FaHome size={20}/></li> */}
+            <li className='navigationLink'><AiOutlineHome size={20}/>
+            <Link href='/'>
+              <a>home</a>
+              </Link>
+            </li>
+            <li className='navigationLink'><FaCalendar size={18}/>
+            <Link href='#'>
+              <a>agenda</a>
+              </Link>
+            </li>
+            <li className='navigationLink'><FaRegCompass size={20}/>
+            <Link href='/explore'>
+              <a>explorar</a>
+              </Link>
+            </li>
           </ul>
         </article>
       </Landing>

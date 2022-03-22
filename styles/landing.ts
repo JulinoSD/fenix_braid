@@ -26,10 +26,16 @@ export const Landing = styled.div`
     .btnInfo:hover {
         background: #00ffdf55;
     }
-    ul {
+    .navigation {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      font: 300 10px 'Ubuntu', sans-serif;
+
+      .navigationLink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     }
 `;
-// export default Landing

@@ -61,16 +61,36 @@ export const Images = styled.div`
   background: #fff;
   .card {
     display: grid;
-    width: 435px;
-    height: 410px;
+    // width: 400px;
+    // height: 410px;
+    width: auto;
+    height: auto;
     background: #fff;
     color: #000;
     border-radius: 10px;
     box-shadow: 0 0.125rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    .photo{
+      position: relative;
+      display: grid;
+      width: 400px;
+      height: 380px;
+      background: black;
+      border-radius: 10px;
+      place-content: center;
+      color: #fff;
+      img {
+        width: 100%;
+        height: 100%;
+        background: black;
+
+      }
+    }
     .reaction {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around;
+      z-index: 1;
     }
   }
   .card:first-child {
@@ -78,27 +98,6 @@ export const Images = styled.div`
   }
   .card:not(:first-child) {
     margin-top:8px;
-  }
-  .photo{
-    position: relative;
-    display: grid;
-    width: 435px;
-    height: 380px;
-    background: black;
-    border-radius: 10px;
-    place-content: center;
-    color: #fff;
-    // z-index: -1;
-    Image {
-      width: 100%;
-      height: 100%;
-      border-radius: 10px;
-    }
-  }
-  img {
-    width: 100%;
-    height: 350px;
-    background: black;
   }
 }
 `

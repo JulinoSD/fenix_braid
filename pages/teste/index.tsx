@@ -1,9 +1,8 @@
-import { Teste } from "styles/teste"
+import { Teste } from "pages/teste/teste"
 
 function handleButton(){
   const Btn = document.querySelector(".btn");
   return Btn
-  console.log(Btn);
 }
 
 export const Test = () => {

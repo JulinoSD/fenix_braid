@@ -19,7 +19,6 @@ export const GlobalStyle = createGlobalStyle`
     a {
         color: ${props => props.theme.colors.text};
         text-decoration: none;
-        text-transform: uppercase;
         background: ${props => props.theme.colors.primary}
       }
     fieldset {
@@ -32,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
       border-radius: 10px;
       border: none;
       //background: ${props => props.theme.dimension.ButtonLanding};
-      background: #009fff;
+      background: #0096cc;
       color: white;
       font-weight: bold;
 

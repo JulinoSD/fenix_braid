@@ -1,1 +1,7 @@
-export{}
+export const Explore = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}

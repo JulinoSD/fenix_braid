@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { FiHeart } from "react-icons/fi"
-import { Images } from "styles/images"
+import { Images } from "./images"
 
 export const Galery =() => {
   return (
@@ -32,22 +32,24 @@ export const Galery =() => {
         <main className="principal">
           <section className="card">
             <article className="photo">
-              <Image src='/../public/fundo.png' alt="imagem" width={430} height={420}
-              />
+              
+              <img src="/../fundo.png" alt="foto de fundo" />
             </article>
             <article className="reaction">
               <p>Nome:</p>
               <p>Tipo:</p>
+              <p>Discrição: </p>
               <FiHeart size={20}/>
             </article>
           </section>
           <section className="card">
             <article className="photo">
-            <img src="#" alt="imagem"/>
+              <img src="#" alt="imagem"/>
             </article>
             <article className="reaction">
               <p>Nome:</p>
               <p>Tipo:</p>
+              <p>Discrição: </p>
               <FiHeart size={20}/>
             </article>
           </section>
