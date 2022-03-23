@@ -1,10 +1,9 @@
-import Image from 'next/image'
 import { FaHeart, FaShareAlt } from 'react-icons/fa'
 import { FiHeart } from 'react-icons/fi';
 import {IoIosArrowDown} from 'react-icons/io'
 import { Images } from "./images"
 
-export const Galery =() => {
+const Galery =() => {
   return (
     <Images>
         <header className="Header">

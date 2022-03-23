@@ -126,3 +126,4 @@ height: 100vh;
   opacity: 1;
 }
 `
+export default Teste;

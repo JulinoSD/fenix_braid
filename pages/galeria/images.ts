@@ -124,3 +124,4 @@ export const Images = styled.div`
   }
 }
 `
+export default Images;

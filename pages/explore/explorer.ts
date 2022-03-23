@@ -18,3 +18,4 @@ button + button {
   margin-top: 10px;
 }
 `
+export default Explorer
