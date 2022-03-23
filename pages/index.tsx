@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       </Head>
       <Landing>
       {/* <img src={fundo} alt="" /> */}
-        <article className='invite'>
+        <main className='invite'>
           <ul className='navigation'>
             <li className='navigationLink'>
               <FaImages size={20}/>
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
               </Link>
             </li>
           </ul>
-        </article>
+        </main>
       </Landing>
     </div>
     }

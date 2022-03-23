@@ -5,7 +5,7 @@ export const Landing = styled.div`
     height: 100vh;
 
     .invite {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         display: flex;
         justify-content: center;
