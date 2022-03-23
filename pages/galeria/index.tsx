@@ -1,7 +1,7 @@
 import { FaHeart, FaShareAlt } from 'react-icons/fa'
 import { FiHeart } from 'react-icons/fi';
 import {IoIosArrowDown} from 'react-icons/io'
-import { Images } from "./images"
+import { Images } from "../../styles/images"
 
 const Galery =() => {
   return (

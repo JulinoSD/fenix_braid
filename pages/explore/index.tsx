@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import { Explorer } from "./explorer"
+import { Explorer } from "../../styles/explorer"
 import { FiArrowRight } from 'react-icons/fi'
 
 const Explore = () => {

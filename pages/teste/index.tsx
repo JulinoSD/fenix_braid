@@ -1,4 +1,4 @@
-import { Teste } from "pages/teste/teste"
+import { Teste } from "styles/teste"
 
 function handleButton(){
   const Btn = document.querySelector(".btn");
