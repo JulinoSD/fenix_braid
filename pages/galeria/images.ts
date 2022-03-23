@@ -32,6 +32,7 @@ export const Images = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 150px;
     .number {
       display: flex;
       flex-direction: column;
@@ -58,39 +59,61 @@ export const Images = styled.div`
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background: #fff;
+  background: #1a2027;
   .card {
     display: grid;
-    // width: 400px;
-    // height: 410px;
-    width: auto;
-    height: auto;
-    background: #fff;
+    width: 380px;
+    height: 440px;
+    // width: auto;
+    // height: auto;
+    background: #1e1e1e;
     color: #000;
     border-radius: 10px;
     box-shadow: 0 0.125rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 1.25rem 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
     .photo{
-      position: relative;
       display: grid;
-      width: 400px;
+      width: 380px;
       height: 380px;
-      background: black;
+      background: red;
       border-radius: 10px;
-      place-content: center;
       color: #fff;
       img {
         width: 100%;
         height: 100%;
-        background: black;
+        // background: black;
+        top: 0;
+        // position: relative;
+        display: block;
 
       }
     }
-    .reaction {
+    .cardAction {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      height: 60px;
       z-index: 1;
+      background: #1e1e1e;
+
+
+      .description {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+        .buttonAction {
+          color: gray;
+          width: 70px;
+
+          display: flex;
+          justify-content: space-between;
+        }
+        button {
+          background: none;
+        }
+      }
     }
   }
   .card:first-child {

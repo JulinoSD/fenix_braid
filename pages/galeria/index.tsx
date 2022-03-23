@@ -1,5 +1,7 @@
 import Image from 'next/image'
-import { FiHeart } from "react-icons/fi"
+import { FaHeart, FaShareAlt } from 'react-icons/fa'
+import { FiHeart } from 'react-icons/fi';
+import {IoIosArrowDown} from 'react-icons/io'
 import { Images } from "./images"
 
 export const Galery =() => {
@@ -17,11 +19,11 @@ export const Galery =() => {
               </section>
               <section className="number">
                 <p className="name">001</p>
-                <p className="title">Gostaram</p>
+                <p className="title">Gostei</p>
               </section>
               <section className="number">
                 <p className="name">001</p>
-                <p className="title">Fizeram</p>
+                <p className="title">Fiz</p>
               </section>
             </article>
             <button className="detail">
@@ -32,25 +34,30 @@ export const Galery =() => {
         <main className="principal">
           <section className="card">
             <article className="photo">
-              
               <img src="/../fundo.png" alt="foto de fundo" />
             </article>
-            <article className="reaction">
-              <p>Nome:</p>
-              <p>Tipo:</p>
-              <p>Discrição: </p>
-              <FiHeart size={20}/>
+            <article className="cardAction">
+              <section className='description'>
+                <article className='buttonAction'>
+                  <FaHeart size={20}/>
+                  <FaShareAlt size={20}/>
+                </article>
+
+                <button><IoIosArrowDown size={20} color="gray"/> </button>
+              </section>
             </article>
           </section>
           <section className="card">
             <article className="photo">
-              <img src="#" alt="imagem"/>
+              <img src="/../trança6.jpeg" alt="trança 6"/>
             </article>
-            <article className="reaction">
-              <p>Nome:</p>
-              <p>Tipo:</p>
-              <p>Discrição: </p>
-              <FiHeart size={20}/>
+            <article className="cardAction">
+              <section className='description'>
+                <p>Nome:</p>
+                <p>Tipo:</p>
+                <FiHeart size={20}/>
+                <button>Descrição: </button>
+              </section>
             </article>
           </section>
         </main>

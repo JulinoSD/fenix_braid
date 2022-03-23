@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
         font: 400 16px 'Ubuntu', sans-serif;
-        background: url(fundo.png) no-repeat;
+        background: #1a2027;
         background-size: cover;
         color: ${props => props.theme.colors.text};
     }
@@ -25,13 +25,12 @@ export const GlobalStyle = createGlobalStyle`
         border: none;
     }
     button {
-      width: ${props => props.theme.dimension.ButtonLanding.width};
-      height: ${props => props.theme.dimension.ButtonLanding.height};
       text-transform: uppercase;
       border-radius: 10px;
       border: none;
       //background: ${props => props.theme.dimension.ButtonLanding};
       background: #0096cc;
+      padding: 7px;
       color: white;
       font-weight: bold;
 
