@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const Images = styled.div`
 .Header {
   position: fixed;
-  background: #fff;
+  background: #868889;
   height: 80px;
   width: 100%;
-  color: #000;
+  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -64,11 +64,9 @@ export const Images = styled.div`
     display: grid;
     width: 380px;
     height: 440px;
-    // width: auto;
-    // height: auto;
     background: #1e1e1e;
     color: #000;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0.125rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 1.25rem 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
     .photo{
@@ -76,7 +74,7 @@ export const Images = styled.div`
       width: 380px;
       height: 380px;
       background: red;
-      border-radius: 10px;
+      border-radius: 5px;
       color: #fff;
       img {
         width: 100%;
@@ -96,7 +94,6 @@ export const Images = styled.div`
       z-index: 1;
       background: #1e1e1e;
 
-
       .description {
         display: flex;
         flex-wrap: wrap;
@@ -104,7 +101,7 @@ export const Images = styled.div`
         align-items: center;
         margin: 20px;
         .buttonAction {
-          color: gray;
+          color: #eaebed;
           width: 70px;
 
           display: flex;

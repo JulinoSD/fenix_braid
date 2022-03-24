@@ -51,11 +51,13 @@ const Galery =() => {
               <img src="/../trança6.jpeg" alt="trança 6"/>
             </article>
             <article className="cardAction">
-              <section className='description'>
-                <p>Nome:</p>
-                <p>Tipo:</p>
-                <FiHeart size={20}/>
-                <button>Descrição: </button>
+            <section className='description'>
+                <article className='buttonAction'>
+                  <FaHeart size={20}/>
+                  <FaShareAlt size={20}/>
+                </article>
+
+                <button><IoIosArrowDown size={20} color="gray"/> </button>
               </section>
             </article>
           </section>

@@ -9,10 +9,18 @@ justify-content: center;
 width: 100vw;
 height: 100vh;
 button {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  width: 180px;
+  // height: 30px;
+  color: #eaebed;
+
+  a{
+    color: #eaebed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
 }
 button + button {
   margin-top: 10px;
