@@ -42,11 +42,12 @@ export const BraidStyle = styled.main`
       justify-content: space-around;
       height: 120px;
       z-index: 1;
-      background: #1e1e1e;
+      background: #2d2d2d;
       padding: 20px 10px;
       p {
         font: 300 13px 'Ubuntu',sans-serif;
         margin: 10px 0px;
+        color: #cecccc;
       }
       h2 {
         font: 400 18px 'Ubuntu',sans-serif;

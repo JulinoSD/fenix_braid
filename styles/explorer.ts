@@ -10,7 +10,6 @@ width: 100vw;
 height: 100vh;
 button {
   width: 180px;
-  // height: 30px;
   color: #eaebed;
 
   a{
